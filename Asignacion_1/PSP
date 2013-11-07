@@ -1,0 +1,19 @@
+
+
+25 min planeacion
+etapa 			t.estimado	t.realizado		Hora del dia
+diseño			1:00 		13:49s			18:46  19:00
+Desarrollo		1:30		74:47			19:00  20:19
+compilar		0:50		35:33		   	20:56
+Testing			0:20 		08:05	
+postmortem  	20min		
+
+Errores
+tiempo			etapa de inyeccion 		etapa de correccion		tipo y descripcion de error
+1:35 min		diseño					Desarrollo				Error al dibujar(logica) un ciclo para sacar la varianza
+18:00.324		diseño 					Compilación				Error en logica de la formación de los nodos.
+1:00 min		codigo					Compilation				Error en el nombre de las variables
+3:04 min		code					compile					Error en la forma de escritura de ciclos for faltaron los dos puntos de finalizar 
+
+
+Esta fue mi hoja que tenia antes de pasar los datos al dashboard
