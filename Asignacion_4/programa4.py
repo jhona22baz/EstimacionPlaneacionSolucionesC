@@ -161,6 +161,9 @@ averageOfLog = Estadistica.XYavg(ELn,len(arrayOfLogLn))#step3
 valueofVariance = Estadistica.Variance(arrayOfLogLn,averageOfLog)#step4
 valueOfStandartDeviation = math.sqrt(valueofVariance)#step5
 VarOfLnVS,VarOfLnS,VarOfLnM,VarOfLnL,VarOfLnVL =  Estadistica.rangesOfLog(averageOfLog,valueOfStandartDeviation)#step6
-print "\n\n____________________________________________________________________________________________________"
+print "\n\n"
+print "_"*120
+print valueOfStandartDeviation
+print "_"*120
 Estadistica.OriginalForm(VarOfLnVS,VarOfLnS,VarOfLnM,VarOfLnL,VarOfLnVL)
-print "____________________________________________________________________________________________________\n\n"
+print "_"*120
